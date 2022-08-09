@@ -1,0 +1,34 @@
+<html>
+<body>
+	<center>
+<form name="fb">
+<table cellpadding="10" cellspacing="10">
+<caption>Capture Leads</caption>
+<tr><td>1.First Name:</td><td><input type="text" name="fname" id="fname" required placeholder="Enter your name" "></td></tr>
+<tr><td>2.Middle Name:</td><td><input type="text" name="fname" id="fname" required placeholder="Enter your name" "></td></tr>
+<tr><td>3.Last Name:</td><td><input type="text" name="fsec" id="fsec" required placeholder="Enter second name"></td></tr>
+<tr><td>4.Gender: </td><td><input type="radio" name="gender" id="male">Male<input type="radio" name="gender" id="female">Female</td></tr>
+<tr><td>5.Date Of Birth:</td><td><input type="date" name="date" id="date"></td></tr>
+<tr><td>6.Address: </td><td><textarea name="farea" id="farea" rows="10" cols="20"></textarea></td><td></td></tr>
+<tr><td>7.Educational Qualification:</td><td><select name="edu" id="edu">
+<option value="B.E" selected>B.E</option>
+<option value="B.com">B.com</option>
+<option value="Msc">Msc</option>
+<option value="MBA">MBA</option>
+</select>
+</td>
+</tr>
+<tr><td>8.Other accounts:</td><td><input type="checkbox" name="gmail" id="gmail" value="gmail" checked>Gmail<input type="checkbox" name="twit" id="twit" value="twitter">Twitter<input type="checkbox" name="instg" id="instg" value="instagram">Instagram</td></tr>
+<tr><td>9.Email:</td><td><input type="text" name="fmail" id="fmail"></td></tr>
+<tr><td>10.Password:</td><td><input type="password" name="pass" id="pass" maxlength="10"></td></tr>
+<tr><td>11.Upload File:</td><td><input type="file" name= "fil1" id="fil1"></td></tr>
+<tr><td colspan="2" align="center">
+<input type="submit" name="r1" id="r1" value="reset">
+<input type="submit"
+</td></tr>
+</select>
+</td>
+</tr></table></form></center>
+
+
+</table>
